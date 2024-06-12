@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, ReactNode } from 'react';
 import { View, Dimensions, Animated, PanResponder, Easing } from 'react-native';
 
 interface IDrawerProps {
@@ -11,6 +11,7 @@ interface IDrawerProps {
 	drawerHeight?: number;
 	drawerBackgroundColor?: string;
 	drawerOpenSpeed?: number;
+	children?: ReactNode;
 }
 interface IState {
 	yPosition: number;

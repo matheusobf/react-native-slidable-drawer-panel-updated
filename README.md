@@ -1,15 +1,16 @@
-# React Native Slidable Drawer Panel
-React Native slidable drawer designed using react native's Animated and PanResponder APIs. Purely Typescript.
+# React Native Slidable Drawer Panel Updated
+This is a updated version of package [React Native Slidable Drawer Panel](https://github.com/alishalawani/react-native-slidable-drawer-panel)
 
+React Native slidable drawer designed using react native's Animated and PanResponder APIs. Purely Typescript.
 
 ## Installation
 Install package by running: 
 ```
-npm i react-native-slidable-drawer-panel
+npm i react-native-slidable-drawer-panel-updated
 ```
 or 
 ```
-yarn add react-native-slidable-drawer-panel
+yarn add react-native-slidable-drawer-panel-updated
 ```
 
 ## Demo
@@ -27,7 +28,7 @@ yarn add react-native-slidable-drawer-panel
 ```ts
 import React, { useState } from 'react';
 import { Button, SafeAreaView, StyleSheet } from 'react-native';
-import SlidableDrawer from 'react-native-slidable-drawer-panel';
+import SlidableDrawer from 'react-native-slidable-drawer-panel-updated';
 
 export default function App() {
 	const [showDrawer, setShowDrawer] = useState(false);
@@ -82,9 +83,10 @@ Property | Type | Description
 **drawerOpenSpeed** | number | The speed at which the drawer opens (relative to time and friction) when the component renders. Values range from `1` to `5`, `5` being the fastest. Default is `5`.
 **children** | React.Element | A react native component/element
 
-[GIT REPO](https://github.com/alishalawani/react-native-slidable-drawer-panel)
-
 ## Contributions
 To make contributions to this project; fork and make pull requests from your fork.
 There is an example app in this repository to help you test your changes, whichever way feels convenient.
 Pull requests would be approved once they have been reviewed and determined to be aligned with the intended cause of the project.
+
+## Credits
+All credits to [@alishalawani](https://github.com/alishalawani). Modifications and updates made by [@matheusobf](https://github.com/matheusobf)

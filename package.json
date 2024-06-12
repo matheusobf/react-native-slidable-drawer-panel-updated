@@ -1,22 +1,27 @@
 {
-  "name": "react-native-slidable-drawer-panel",
-  "version": "1.0.6",
-  "description": "A react native (expo) slidable drawer panel",
+  "name": "react-native-slidable-drawer-panel-updated",
+  "version": "1.0.0",
+  "description": "A react native (expo) slidable drawer panel updated for react 18.2.0 and react-native 0.74.1",
   "main": "index.tsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Alisha Lawani <alishalawani@gmail.com>",
+  "contributors": [
+    {
+      "name": "Matheus Santos",
+      "email": "mat982005@gmail.com"
+    }
+  ],
   "license": "ISC",
   "dependencies": {
-    "react": "17.0.1",
-    "react-native": "0.64.2"
+    "react": "18.2.0",
+    "react-native": "0.74.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.16.0",
-    "@types/react": "^17.0.33",
-    "@types/react-native": "^0.66.1",
-    "typescript": "~4.3.5"
+    "@babel/core": "^7.20.0",
+    "@types/react": "^18.2.0",
+    "typescript": "~5.1.3"
   }
 }
