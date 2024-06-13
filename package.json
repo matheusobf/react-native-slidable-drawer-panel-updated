@@ -1,7 +1,7 @@
 {
   "name": "react-native-slidable-drawer-panel-updated",
-  "version": "1.0.0",
-  "description": "A react native (expo) slidable drawer panel updated for react 18.2.0 and react-native 0.74.1",
+  "version": "1.0.1",
+  "description": "A react native (expo) slidable drawer panel updated for react 18.2.0 and react-native 0.74.0",
   "main": "index.tsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,8 +19,8 @@
     "url": "matheusobf/react-native-slidable-drawer-panel-updated"
   },
   "dependencies": {
-    "react": "18.2.0",
-    "react-native": "0.74.1"
+    "react": ">=18.2.0",
+    "react-native": ">=0.74.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
